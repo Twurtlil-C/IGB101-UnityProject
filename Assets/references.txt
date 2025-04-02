@@ -1,4 +1,6 @@
-Ice Texture:
+Textures:
+Ice:
 https://ar.inspiredpencil.com/pictures-2023/seamless-ice-texture
 
-Marble Texture:
+Carpet:
+https://brandstata.weebly.com/blog/grey-carpet-seamless-texture
