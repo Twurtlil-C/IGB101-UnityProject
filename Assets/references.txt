@@ -1,9 +1,0 @@
-Textures:
-Ice:
-https://ar.inspiredpencil.com/pictures-2023/seamless-ice-texture
-
-Carpet:
-https://brandstata.weebly.com/blog/grey-carpet-seamless-texture
-
-Aquatic Skybox:
-https://opengameart.org/content/ocean-hdriskybox
