@@ -13,6 +13,7 @@ public class CameraMovement : MonoBehaviour{
     private float proximity = 0.1f;
     public float moveSpeed = 5.0f;
     public float rotSpeed = 5.0f;
+    public bool loop = false;
     private float adjRotSpeed;
     private Quaternion targetRotation;
 
@@ -38,13 +39,19 @@ public class CameraMovement : MonoBehaviour{
             if (Input.GetKeyDown("w")) {
                 cameraIndex++;
 
-                if (cameraIndex >= cameraNodes.Length - 1)
-                    cameraIndex = cameraNodes.Length - 1;
+                if (cameraIndex >= cameraNodes.Length)
+                    if (loop)
+                        // Allow looping back to beginning
+                        cameraIndex = 0;
+                    else
+                        cameraIndex = cameraNodes.Length - 1;
+
             }
             else if (Input.GetKeyDown("s")) {
                     cameraIndex--;
                     if (cameraIndex <= 0)
                         cameraIndex = 0;
+
             }
         }
 

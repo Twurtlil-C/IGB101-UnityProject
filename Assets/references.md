@@ -30,3 +30,6 @@ Models:
 
     3D Architecture Photo Frame:
     https://sketchfab.com/d.varsics
+
+    Happy Octopus:
+    https://sketchfab.com/moxstudios
