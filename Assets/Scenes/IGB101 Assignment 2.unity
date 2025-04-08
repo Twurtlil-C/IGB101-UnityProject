@@ -2376,7 +2376,7 @@ MonoBehaviour:
   - {fileID: 1682920418}
   moveSpeed: 4
   rotSpeed: 5
-  loop: 0
+  loop: 1
 --- !u!114 &809198577
 MonoBehaviour:
   m_ObjectHideFlags: 0
