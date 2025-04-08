@@ -1,4 +1,7 @@
 Textures:
+    Marble:
+    https://www.mkdkitchenandbath.com/product/calacatta-marble/
+
     Ice:
     https://ar.inspiredpencil.com/pictures-2023/seamless-ice-texture
 
@@ -7,6 +10,9 @@ Textures:
 
     Aquatic Skybox:
     https://opengameart.org/content/ocean-hdriskybox
+
+    Underwater Sand:
+    https://www.deviantart.com/dabbex30/art/Underwater-Sand-575719072
 
 Audio:
     Energy Hum:
@@ -18,3 +24,6 @@ Audio:
     Underwater Ambience:
     pixabay - freesound_community
 
+Models:
+    Low-Poly Fish Pack:
+    https://sketchfab.com/assetfactory
