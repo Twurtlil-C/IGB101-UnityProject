@@ -27,3 +27,6 @@ Audio:
 Models:
     Low-Poly Fish Pack:
     https://sketchfab.com/assetfactory
+
+    3D Architecture Photo Frame:
+    https://sketchfab.com/d.varsics
