@@ -33,3 +33,12 @@ Models:
 
     Happy Octopus:
     https://sketchfab.com/moxstudios
+
+    Fin Whale:
+    https://sketchfab.com/woelper
+
+    Fan Coral:
+    https://sketchfab.com/Valery.Li
+
+    Seaweed:
+    https://sketchfab.com/OwenCalingasan
