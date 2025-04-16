@@ -42,3 +42,6 @@ Models:
 
     Seaweed:
     https://sketchfab.com/OwenCalingasan
+
+    Shipwreck Low-Poly:
+    https://sketchfab.com/compostthesecond
