@@ -1,4 +1,4 @@
-Textures:
+# Textures:
     Marble:
     https://www.mkdkitchenandbath.com/product/calacatta-marble/
 
@@ -14,7 +14,7 @@ Textures:
     Underwater Sand:
     https://www.deviantart.com/dabbex30/art/Underwater-Sand-575719072
 
-Audio:
+# Audio:
     Energy Hum:
     pixabay - freesound_community
     
@@ -24,7 +24,7 @@ Audio:
     Underwater Ambience:
     pixabay - freesound_community
 
-Models:
+# Models:
     Low-Poly Fish Pack:
     https://sketchfab.com/assetfactory
 
@@ -45,3 +45,6 @@ Models:
 
     Shipwreck Low-Poly:
     https://sketchfab.com/compostthesecond
+
+    Diver Aquatekk:
+    https://sketchfab.com/mark2580

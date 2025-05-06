@@ -52,19 +52,28 @@ public class PlayerMovement : MonoBehaviour{
     }
 
     private void Actions(){
-        if(Input.GetKeyDown("e")){
+        if(Input.GetKeyDown("1")){
             anim.SetBool("Waving", true);
-        } else if(Input.GetKeyUp("e")){
+        } else if(Input.GetKeyUp("1")){
             anim.SetBool("Waving", false);
         }
 
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("2"))
         {
             anim.SetBool("T-Posing", true);
         }
-        else if (Input.GetKeyUp("r"))
+        else if (Input.GetKeyUp("2"))
         {
             anim.SetBool("T-Posing", false);
+        }
+
+        if (Input.GetKeyDown("3"))
+        {
+            anim.SetBool("Dancing", true);
+        }
+        else if (Input.GetKeyUp("3"))
+        {
+            anim.SetBool("Dancing", false);
         }
     }
 }
