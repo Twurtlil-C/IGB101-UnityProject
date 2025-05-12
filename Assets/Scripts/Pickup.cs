@@ -4,8 +4,9 @@ public class Pickup : MonoBehaviour
 {
     [Header("Pickup SFX")]
     public AudioClip clip;
-    public float volume;
-    public float pitch;
+    public float volume = 1.0f;
+    public float minPitch = 0.99f;
+    public float maxPitch = 1.01f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +25,7 @@ public class Pickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.Instance.currentPickups += 1;
-            GameManager.Instance.PlayAudioClip(clip, volume, pitch);
+            GameManager.Instance.PlayAudioClip(clip, volume, Random.Range(minPitch, maxPitch));
             Destroy(this.gameObject);
         }
     }

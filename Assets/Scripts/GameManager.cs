@@ -72,7 +72,6 @@ public class GameManager : MonoBehaviour
         {
             if (Vector3.Distance(player.transform.position, audioSources[i].transform.position) <= audioProximity)
             {
-                Debug.Log("HI");
                 if (!audioSources[i].isPlaying)
                 {
                     audioSources[i].Play();
