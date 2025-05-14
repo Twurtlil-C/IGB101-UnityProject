@@ -3,9 +3,13 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public float openProximity = 2.0f;
+    public AudioClip openSFX;
+
+    public GUIEvent GUIEvent;
 
     Animation anim;
-    
+
+    private bool isOpen = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,9 +20,17 @@ public class Door : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (WithinOpenProximity() && Input.GetKeyDown("f"))
+        GUIEvent.ToggleDoorText(false);
+
+        if (WithinOpenProximity())
         {
-            anim.Play();
+            if (!isOpen) GUIEvent.ToggleDoorText(true);
+
+            if (Input.GetKeyDown("f"))
+            {
+                anim.Play();
+                isOpen = true;
+            }
         }
     }
 

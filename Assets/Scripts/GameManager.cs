@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     // Pickup and Level Completion Logic
     public int currentPickups = 0;
     public int maxPickups = 5;
-    public bool levelComplete = false;
+    public bool levelComplete = false;    
     public Text pickupText;
 
     // Audio Proximity Logic
@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour
     public float audioProximity = 5.0f;
 
     private AudioSource myAudioSource;
+
+    // Level Complete SFX
+    public AudioClip levelCompleteSFX;
+    private bool completeSFXPlayed = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,6 +48,12 @@ public class GameManager : MonoBehaviour
         LevelCompleteCheck();
         UpdateGUI();
         PlayAudioSamples();
+
+        if (levelComplete && !completeSFXPlayed && levelCompleteSFX != null)
+        {
+            PlayAudioClip(levelCompleteSFX, 0.5f, 1.0f);
+            completeSFXPlayed = true;
+        } 
     }
 
     private void LevelCompleteCheck()
