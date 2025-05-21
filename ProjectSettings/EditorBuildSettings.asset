@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/IGB101 Assignment 2.unity
+    path: Assets/J Domingo (n11964553)/Scenes/IGB101 Assignment 2.unity
     guid: 8d2fa22827f1fc64788c1d0c31bdbab7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
